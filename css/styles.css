@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(93, 93, 93);
+}
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(93, 93, 93);
+}
+.precio{
+    font-weight: bold;
+}
+.contenedor{
+    max-width: 1200px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-producto{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.card-producto{
+    width: 230px;
+    height: 400px;
+    margin: 10px;
+    border: none;
+    box-shadow: 10px 6px 6px rgb(211,211,211,0.221);
+    border-radius: 15px;
+}
+
+.icono{
+    cursor: pointer;
+}
+
+.img-carrito{
+    width: 50px;
+    height: 50px;
+}
+
+.btnCategoria{
+    background-color: white;
+    border: none;
+    color: rgb(9, 95, 66);
+    padding: 10px;
+
+}
+
+.btnCategoria:hover{
+    background-color: rgb(9, 95, 66);
+    color: white;
+    border-radius: 5px;
+}
+
+.btnAgregar{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.btnAgregar:hover{
+    background-color: rgb(42, 143, 110);
+    color: white;
+}
+
+.nav{
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tabla{
+    border-radius: 5px;
+}
+
+.tabla-footer{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btnComprar{
+    color: white;
+    font-size: large;
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnComprar:hover{
+    color: white;
+    font-size: large;
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background: #c83745;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #701556, #a12733);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #711a58, #c83342); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnVolver{
+    color: white;
+    border-radius: 20px;
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnVolver:hover{
+    color: white;
+    border-radius: 20px;
+    background: #f12252;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f93a18, #fb2a5b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f23b1a, #f92153); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.busqueda{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
